@@ -1,0 +1,28 @@
+::selection {
+  background: #fe57a1;
+  color: #020202;
+}
+
+:root {
+  color: mistyrose;
+  background: #311;
+}
+
+:any-link {
+  color: #fa8bee;
+}
+
+:any-link:active {
+  text-shadow: 0 0 1ex;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #311;
+    background: seashell;
+  }
+
+  :any-link {
+    color: #22e;
+  }
+}
